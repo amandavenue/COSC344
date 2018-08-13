@@ -1,0 +1,2 @@
+SELECT fname, lname, salary FROM customers
+ORDER BY salary, lname;

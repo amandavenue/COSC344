@@ -1,0 +1,4 @@
+SELECT orders.onum, customers.cname, orders.cnum, orders.snum
+FROM salespeople, customers, orders
+GROUP BY orders.onum
+HAVING customers.city NOT salespeople.city;
